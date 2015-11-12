@@ -293,7 +293,7 @@ int main()
 
             cout <<endl;
         }
-            Arquivo_hex << "80 "; /// PARA INDICAR O FIM DO ARQUIVO E RECOMEÇAR A LEITURA DA MEMÓRIA ROM
+            Arquivo_hex << "90 "; /// PARA INDICAR O FIM DO ARQUIVO E RECOMEÇAR A LEITURA DA MEMÓRIA ROM
             Arquivo_hex.close();
     }
    return 0;
