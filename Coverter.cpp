@@ -262,7 +262,7 @@ int main()
 
          while(Frase!="/0"){
 
-            cout << "Digite uma frase COM LETRAS MAIUSCULAS ou /0 para SAIR" <<endl;
+            cout << "Palavras COM LETRAS MAIUSCULAS, aperte enter para digitar outra ou /0 para SAIR" <<endl;
             cin >> Frase;
             Arquivo_hex << "0 0 0" << endl;
 
